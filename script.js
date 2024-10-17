@@ -1,3 +1,4 @@
+const loader = document.querySelector(".loader");
 //Show loader once
 loader.classList.remove("hidden");
 setTimeout(() => {
@@ -5,7 +6,6 @@ setTimeout(() => {
 }, 1300);
 window.scrollTo(0, 0);
 
-const loader = document.querySelector(".loader");
 const loader0 = document.querySelector(".loader0");
 const navs = document.querySelectorAll(".nav");
 const pages = document.querySelectorAll(".page");
