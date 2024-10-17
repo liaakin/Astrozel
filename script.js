@@ -1,3 +1,10 @@
+//Show loader once
+loader.classList.remove("hidden");
+setTimeout(() => {
+  loader.classList.add("hidden");
+}, 1300);
+window.scrollTo(0, 0);
+
 const loader = document.querySelector(".loader");
 const loader0 = document.querySelector(".loader0");
 const navs = document.querySelectorAll(".nav");
@@ -10,12 +17,6 @@ const textarea = document.querySelector(".customMessage textarea");
 const aboutUs = document.querySelector(".AboutUs");
 const aboutYou = document.querySelector(".AboutYou");
 
-//Show loader once
-loader.classList.remove("hidden");
-setTimeout(() => {
-  loader.classList.add("hidden");
-}, 1300);
-window.scrollTo(0, 0);
 // Remove Prices for About Us and About You on site call
 const removePrices = () => {
   if (
