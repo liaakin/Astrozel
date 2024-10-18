@@ -1167,4 +1167,9 @@ p.noSubmit:hover {
     right: 12%;
     bottom: 40%;
   }
+
+  .section--hidden {
+    opacity: 1;
+    transform: none;
+  }
 }
